@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <script
+      src="https://kit.fontawesome.com/90f889e50d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1-L h1-S h1-M">TODO</h1>
+    <div id="addElement" class="textBox textBox-S">
+      <input
+        id="inputText"
+        type="text"
+        placeholder="Task to be done..."
+        class="textField textField-S"
+      />
+      <button id="addButton">+</button>
+    </div>
+
+    <div id="lowerContainer">
+      <div id="itemSection">
+        <!-- adding element here -->
+      </div>
+      <div class="itemcontainer itemcontainer-S" id="controlSection">
+        <p class="currentCount-S" id="currentCount">0 items left</p>
+        <div>
+          <button class="controlButton" id="clearAll">Clear All</button>
+          <button class="controlButton" id="clearCompleted">
+            Clear Completed
+          </button>
+          <button class="controlButton" id="viewActive">Active</button>
+          <button class="controlButton" id="viewAll">All</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 3% 35% 0.5%;
+}
+.textBox{
+
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    margin: 0% 35% 2%;
+    padding: 0.5% 0% 0.5% 1%;
+}
+.textField{
+
+    border: none;
+    height: 25px;
+    font-size: medium;
+    text-align: left;
+    width: 5% 70%;
+    padding-right: 10%;
+}
+#addButton{
+    background-color: white;
+    text-align: right;
+    border: none;
+    vertical-align: middle;
+    opacity: 30%;
+    font-size: 2.5em;
+    padding: 0% 0.5% 0% 10%;
+}
+input:focus {
+    outline: none !important;
+}
+
+.itemcontainer{
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    height: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.1% 35%;
+    padding: 0.75% 0% 2%;
+}
+.topItemcontainer{
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    height: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1% 35% 0%;
+    padding: 0.75% 0% 2%;
+}
+.checkBox{
+    float: left;
+    margin: 0% 3%;
+    padding: 0.25%;
+    width: 2em;
+}
+.contentBox{
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    white-space:nowrap;
+    margin: 0% 3%;
+    padding: 0.25%;
+    width: 5em;
+}
+.removeButtonBox{
+    float: right;
+    margin: 0% 3%;
+    padding: 0%;
+    width: 1em;
+    height: 1em;
+}
+.removeButton{
+    background-color: white;
+    text-align: right;
+    border: none;
+    font-size: 1em;
+    vertical-align: middle;
+    opacity: 30%;
+    padding: 0% 0.5%;
+}
+.checkboxChecked{
+    opacity: 50%;
+}
+
+.controlButton{
+    background-color: white;
+    text-align: right;
+    border: none;
+    float: right;
+    opacity: 50%;
+    font-size: 0.8em;
+}
+.controlButton:hover{
+    background-color: white;
+    text-align: right;
+    border: none;
+    float: right;
+    opacity: 100%;
+    font-size: 0.8em;
+}
+#currentCount{
+    float: left;
+    opacity: 50%;
+    margin: 0% 0% 0% 2%;
+    font-size: 0.8em;
+}
+
+
+
+@media only screen and (min-width: 1060px){
+    .h1-S{
+        margin: 3% 35% 0.5%;
+    }
+    .textBox-S{
+        margin: 0% 35% 2%;
+        padding: 0.5% 0% 0.5% 1%;
+    }
+    .textField-S{
+        width: 5% 70%;
+        padding-right: 10%;
+    }
+    .itemcontainer-S{
+        margin: 0.1% 35%;
+        padding: 0.75% 0% 2%;
+     }
+    .topItemcontainer-S{
+        margin: 1% 35% 0.1%;
+        padding: 0.75% 0% 2%;
+       }
+}
+@media only screen and (max-width: 1061px){
+    body{
+        background-image: url("images/backgroundMedium.jpg");
+        background-size: cover;
+    }
+    
+    .h1-S{
+        margin: 3% 20% 0.5%;
+    }
+    .textBox-S{
+        margin: 0% 20% 2%;
+        padding: 0.5% 0% 0.5% 1%;
+    }
+    .textField-S{
+        width: 5% 70%;
+        padding-right: 10%;
+    }
+    .itemcontainer-S{
+        margin: 0.25% 20%;
+        padding: 0.75% 0% 2%;
+     }
+    .topItemcontainer-S{
+        margin: 2% 20% 0.25%;
+        padding: 0.75% 0% 2%;
+       }
+    
+}
+@media only screen and (max-width: 740px){
+    body{
+        background-image: url("images/backgroundSmall.jpg");
+        background-size: cover;
+    }
+    .h1-S{
+        margin: 3% 10% 0.5%;
+    }
+    .textBox-S{
+        margin: 0% 10% 2%;
+        padding: 0.5% 0% 0.5% 1%;
+    }
+    .textField-S{
+        width: 5% 70%;
+        padding-right: 10%;
+    }
+    .itemcontainer-S{
+        margin: 0.5% 10%;
+        padding: 0.75% 0% 2%;
+        height: 25px;
+     }
+    .topItemcontainer-S{
+        margin: 5% 10% 0.5%;
+        padding: 0.75% 0% 2%;
+        height: 25px;
+       }
+}
