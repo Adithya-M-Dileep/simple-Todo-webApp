@@ -8,7 +8,6 @@ document.getElementById("clearCompleted").addEventListener("click",clearComplete
 document.getElementById("clearAll").addEventListener("click",clearAll);
 
 var itemList=[];
-viewAll();
 // Add new Element to the list 
 function addNewElement(){
  const inputText=document.getElementById("inputText").value;
@@ -126,7 +125,7 @@ function counter(){
 
 //Listen to Enter key press
 document.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
+    if (event.code === "Enter") {
         addNewElement();
     }
 });
