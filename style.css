@@ -171,10 +171,10 @@ input:focus {
         background-size: cover;
     }
     .h1-S{
-        margin: 3% 10% 0.5%;
+        margin: 3% 5% 0.5%;
     }
     .textBox-S{
-        margin: 0% 10% 2%;
+        margin: 0% 5% 2%;
         padding: 0.5% 0% 0.5% 1%;
     }
     .textField-S{
@@ -182,7 +182,7 @@ input:focus {
         padding-right: 10%;
     }
     .itemcontainer-S{
-        margin: 0.5% 10%;
+        margin: 0.5% 5%;
         padding: 0.75% 0% 2%;
         height: 25px;
      }
