@@ -114,7 +114,22 @@ input:focus {
     margin: 0% 0% 0% 2%;
     font-size: 0.8em;
 }
+.draggable{
+    cursor: move;
+}
+.dragging{
+    opacity: 50%;
+}
 
+footer{
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    opacity: 50%;
+}
 
 
 @media only screen and (min-width: 1060px){
